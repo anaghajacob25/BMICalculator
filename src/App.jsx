@@ -74,14 +74,14 @@ const Reload=()=>{
             <RadioGroup
              row aria-labelledby="demo-row-radio-buttons-group-label" name="row-radio-buttons-group" value={gender} onChange={(e) => setGender(e.target.value)} >
            <FormControlLabel value="female" control={<Radio />} label="Female" className='ms-4 me-5'/>
-           <FormControlLabel value="male" control={<Radio />} label="Male" />
+           <FormControlLabel value="male" control={<Radio />} label="Male" className='ms-4'/>
            </RadioGroup>
           </FormControl>
             </div>
 
             <div className='mt-3 flex-row '>
-            <TextField id="standard-basic" label="Height(cm)" variant="standard" className='me-5 mt-2' type='number' value={height} onChange={(e)=>setHeight(e.target.value)} />
-            <TextField id="standard-basic" label="Weight(Kg)" variant="standard" className=' mt-2  ' type='number' value={weight} onChange={(e)=>setWeight(e.target.value)} />
+            <TextField id="standard-basic" label="Height(cm)" variant="standard" className='ms-5 me-3 mt-2' type='number' value={height} onChange={(e)=>setHeight(e.target.value)} />
+            <TextField id="standard-basic" label="Weight(Kg)" variant="standard" className='ms-5 mt-2  ' type='number' value={weight} onChange={(e)=>setWeight(e.target.value)} />
             </div>
 
             <button className='btn btn-secondary mt-5 w-75' onClick={calculateBMI}>Calculate BMI</button>
