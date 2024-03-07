@@ -1,0 +1,14 @@
+.container-fluid{
+    background-image: url('https://t4.ftcdn.net/jpg/02/10/45/95/360_F_210459536_XmLDEcKq2DpeNLVmheuWeu9NM9aGKnih.jpg');
+    background-size: cover;
+}
+
+.calc{
+    background-color: rgba(209, 93, 159, 0.114);
+    
+}
+
+.content{
+    border:2px solid transparent;
+    border-radius: 10px;
+}
